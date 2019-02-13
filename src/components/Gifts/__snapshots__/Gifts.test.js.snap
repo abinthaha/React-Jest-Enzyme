@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Gift Renders correctly 1`] = `
+<div
+  className="each-gift"
+>
+  <ForwardRef(Bootstrap(Form))>
+    <ForwardRef(Bootstrap(FormGroup))>
+      <ForwardRef(ContextTransform)>
+        Person
+      </ForwardRef(ContextTransform)>
+      <ForwardRef(ContextTransform)
+        className="input-person"
+        onChange={[Function]}
+      />
+    </ForwardRef(Bootstrap(FormGroup))>
+    <ForwardRef(Bootstrap(FormGroup))>
+      <ForwardRef(ContextTransform)>
+        Present
+      </ForwardRef(ContextTransform)>
+      <ForwardRef(ContextTransform)
+        className="input-present"
+        onChange={[Function]}
+      />
+    </ForwardRef(Bootstrap(FormGroup))>
+  </ForwardRef(Bootstrap(Form))>
+  <ForwardRef(Bootstrap(Button))
+    className="btn-remove"
+    onClick={[Function]}
+  >
+    Remove Gift
+  </ForwardRef(Bootstrap(Button))>
+</div>
+`;

@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "react": "^16.8.1",
+    "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.8.1",
     "react-scripts": "2.1.5"
   },
@@ -21,5 +22,20 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.9.1",
+    "enzyme-to-json": "^3.3.5",
+    "jest-cli": "^24.1.0",
+    "react-test-renderer": "^16.8.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/index.js",
+      "!src/tempPolyfills.js"
+    ],
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
+  }
 }
